@@ -1,2 +1,18 @@
 [tool.pyright]
 typeCheckingMode = "strict"
+include = ["to-do"]
+
+[tool.black]
+line-length = 99
+
+[tool.isort]
+profile = "black"
+
+[tool.len8]
+include = ["to-do", "tests"]
+code-length = 99
+docs-length = 72
+strict = true
+
+[tool.mypy]
+strict = true
