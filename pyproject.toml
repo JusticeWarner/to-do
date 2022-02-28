@@ -16,4 +16,4 @@ strict = true
 
 [tool.mypy]
 strict = true
-warn_unused_ignore = false
+warn_unused_ignores = false
