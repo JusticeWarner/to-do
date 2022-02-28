@@ -1,0 +1,4 @@
+fastapi==0.74.1
+uvicorn==0.17.0
+python-dotenv ==0.19.2
+aiosqlite==0.17.0
