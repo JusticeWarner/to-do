@@ -9,10 +9,11 @@ line-length = 99
 profile = "black"
 
 [tool.len8]
-include = ["to-do", "tests"]
+include = ["todo", "tests"]
 code-length = 99
 docs-length = 72
 strict = true
 
 [tool.mypy]
 strict = true
+warn_unused_ignore = false
